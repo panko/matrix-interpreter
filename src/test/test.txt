@@ -1,0 +1,129 @@
+
+	//test for linear system solving
+	RealMatrix m = new Array2DRowRealMatrix(new double[][] { { -2, -1, 4 }, { 2, 3, -1 }, { -4, -10, -5 }});
+	RealVector v = new ArrayRealVector(new double[] { 3, 1, -12});
+	System.out.println(LinearSystemSolver(m,v));
+	*/
+	/*	
+	//test addition
+	RealMatrix m1 = new Array2DRowRealMatrix(new double[][] { { 1, 1, 1 }, { 1, 1, 1 }, { 1, 1, 1 }});
+	RealMatrix m2 = new Array2DRowRealMatrix(new double[][] { { 1, 1, 1 }, { 1, 1, 1 }, { 1, 1, 1 }});
+	System.out.println(Matrixadd(m1, m2));
+	*/
+		
+	/*
+	//test substraction
+	RealMatrix m1 = new Array2DRowRealMatrix(new double[][] { { 2, 2, 2 }, { 2, 2, 2 }, { 2, 2, 2 }});
+	RealMatrix m2 = new Array2DRowRealMatrix(new double[][] { { 1, 1, 1 }, { 1, 1, 1 }, { 1, 1, 1 }});
+	System.out.println(Matrixsub(m1, m2));
+	*/	
+		
+	/*
+	//test multiply
+	RealMatrix m1 = new Array2DRowRealMatrix(new double[][] { { 2, 2, 2 }, { 2, 2, 2 }, { 2, 2, 2 }});
+	RealMatrix m2 = new Array2DRowRealMatrix(new double[][] { { 2, 2, 2 }, { 2, 2, 2 }, { 2, 2, 2 }});
+	System.out.println(Matrixmultiply(m1, m2));
+	*/
+	
+	/*	
+	//test inverse
+	RealMatrix m = new Array2DRowRealMatrix(new double[][] { { 2, 2, 2 }, { 3, 3, 2 }, { 2, 4, 4 }});
+	//erre fos exception
+	RealMatrix m2 = new Array2DRowRealMatrix(new double[][] { { 2, 2, 2 }, { 2, 2, 2 }, { 2, 2, 2 }});
+	System.out.println(Matrixinverse(m2));
+	*/
+	
+	/*	
+	
+	//test det	
+	RealMatrix m = new Array2DRowRealMatrix(new double[][] { { 2, 2, 2 }, { 3, 3, 2 }, { 2, 4, 4 }});
+	//erre fos exception -1 el tér vissza
+	RealMatrix m2 = new Array2DRowRealMatrix(new double[][] { { 2, 2 }, { 2, 2 }, { 2, 3 }});
+	System.out.println(Matrixdet(m2));
+	*/
+	
+	/*	
+	//test transponal	
+	RealMatrix m = new Array2DRowRealMatrix(new double[][] { { 2, 2, 2 }, { 3, 3, 2 }, { 2, 4, 4 }});
+	RealMatrix m2 = new Array2DRowRealMatrix(new double[][] { { 2, 2 }, { 2, 2 }, { 2, 3 }});
+	System.out.println(Matrixtranspose(m2));
+	*/
+	
+	/*	
+	//test skalar	
+	RealMatrix m = new Array2DRowRealMatrix(new double[][] { { 2, 2, 2 }, { 3, 3, 2 }, { 2, 4, 4 }});
+	RealMatrix m2 = new Array2DRowRealMatrix(new double[][] { { 2, 2 }, { 2, 2 }, { 2, 3 }});
+	System.out.println(Matrixscalar(m2,2.0));
+	*/
+	
+	/*	
+	//test sajatérték sajatvektor	
+	RealMatrix m = new Array2DRowRealMatrix(new double[][] { { 1 ,0 ,0 }, { 0, 0, 1 }, { 0, 1, 0 }});
+	RealMatrix m2 = new Array2DRowRealMatrix(new double[][] { { 1, 1 }, { -2, 4 } });
+	MatrixEigenDecomp(m);
+	
+	B[3][3] = {2,-2,3,1,1,1,1,3,-1}
+	*/
+	
+		
+	//test gauss	
+	A[3][3] = {-2,-1,4,2,3,-1,-4,-10,-5}
+	
+	
+	A[2][2] = {1,2,2,1}
+
+	A.eigendecomp()
+	
+	
+	
+	A[3][3] = {-2,-1,4,2,3,-1,-4,-10,-5}
+	
+	B[3] = {3,1,-12}
+	
+	
+	A[2][2] = {1,2,2,1}
+	A.eigendecomp()
+	
+	
+	//inv
+
+	A[3][3] = {3,0,1,0,3,0,0,0,1}
+	
+	
+	A[3][3] = {-2,-1,4,2,3,-1,-4,-10,-5}
+
+B[3] = {3,1,-12}
+
+A.lss(B)
+
+
+
+A[2][2] = {4,0.5,5,a}
+
+B[3][3] = {2,-2,3,1,1,1,1,3,-1}
+
+A.mult(B)//hiba
+
+a = 1
+
+	
+	
+	
+	
+1/2 + 1/2	
+Enter something > ((1/2 + 1/2) * 1/2)
+asd
+((1/2+1/2)*1/2) = 0.5
+Enter something > ((1/2 + 1/2) * (1/2 + 1/2))
+asd
+((1/2+1/2)*(1/2+1/2)) = 1.0
+
+((1/2+1)*(1/2+1/2))
+Enter something > 
+
+	
+ ((1/2 + 1/2) * 1/2)
+
+
+A[2][2] = {3,4,5,2}
+	
