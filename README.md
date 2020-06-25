@@ -16,7 +16,7 @@ Mátrixokat feldolgozó nyelv, ANTLR-el megvalósítva.
 - Változók és blokkok (hatáskörkezelés).
 - Saját függvények és eljárások.
 
-# Fordítas, futtatás
+# Fordítás, futtatás
 
 ```$ mvn package```  
 ```$ java -jar target/fordprogfel8-1.0-jar-with-dependencies.jar```
